@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Fragment3">
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/acc3_btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="458dp"
+        android:layout_marginTop="100dp"
+        android:text="Fragment No 3"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/acc3_btnBack"
+        android:layout_marginTop="580dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+</FrameLayout>

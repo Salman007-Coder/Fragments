@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2">
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/ac2_btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="458dp"
+        android:layout_marginTop="100dp"
+        android:text="Fragment No 2"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <Button
+        android:id="@+id/ac2_btnback"
+        android:layout_marginTop="580dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back"/>
+
+</FrameLayout>
